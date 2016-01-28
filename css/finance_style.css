@@ -1,0 +1,128 @@
+.logo {
+    fill: #06deca;
+}
+.logo:hover{
+    fill: #009688;
+}
+.box {
+  width: 400px;
+  height: 175px;
+  background: #009688 url(../img/DSC_0948.jpg) no-repeat;
+  background-position: 00px -60px; 
+  background-size: 110%;
+  float: right;
+}
+.waves-effect.waves-blue .waves-ripple {
+     /* The alpha value allows the text and background color
+     of the button to still show through. */
+      background-color: rgba(0, 150, 136, 0.75);
+    }
+#slide-out{
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 150, 136, 0.35)
+    ),
+       url(../img/liberty.jpg)  no-repeat center; 
+  background-position: 50% 0px; 
+  background-size: auto 100%;
+    font-weight: 700;
+}
+/*style scrollbar*/
+::-webkit-scrollbar-thumb {
+    background-color:#f8ec90;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #009688;
+}
+.card{
+    border-top: 12px solid #f8ec90;
+    transition:.5s;
+}
+.card:hover, .collapsible:hover, .float:hover{
+  -webkit-box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21); 
+}
+.card-image{
+    background: #f8ec90;
+    padding:0 !important;
+}
+.card-image img{
+    opacity: .75;
+    top: 6px !important;
+}
+.card:hover .card-image img{
+    opacity: 1;
+}
+.tabs .tab a{
+    color: #fff;
+}
+.tabs .tab a:hover{
+    color:#f8ec90;
+    background-color: #045d55;
+ }
+.tabs .indicator{
+    background-color:#f8ec90;
+    height:4px;
+ }
+ .title{
+     font-size: 26px;
+ }
+
+p{
+    margin-top: 0;
+    color: #d4d5d0;
+}
+a{
+    color: #f8ec90;
+}
+h3{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    margin:0;
+}
+
+.pink{
+    color: #045d55;
+    background-color: #f8ec90 !important;
+    border-top: 6px solid #045d55;
+}
+
+.collapsible{
+    transition: .5s;
+}
+.collection{
+    border:none;
+    border-radius: 0;
+    transition:.5s;
+}
+.collection a.collection-item, .collapsible-header {
+    color: #fff;
+    background-color: #009688;
+}
+.collection a.collection-item:not(.active):hover{
+    color: #fff;
+    background-color: #045d55;
+}
+.collapsible-body p{
+    color:#646464;
+}
+
+.secondary-content{
+    margin: 20px;
+    border-top: none;
+}
+.collection .collection-item.avatar{
+    height: 160px;
+    padding-top:30px
+}
+.card .card-image .card-title{
+    font-size: 18px;
+    text-align: right;
+    right:0;
+}
+.footer-copyright{
+    bottom: 0;
+}

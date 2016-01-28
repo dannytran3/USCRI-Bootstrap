@@ -1,0 +1,63 @@
+html{
+    background: url(/img/seamless_paper_texture.png) repeat center center fixed; 
+    color: #333344;
+}
+.logo svg {
+    fill: #000000;
+}
+a{
+    color: #d09e16;
+}
+.waves-effect.waves-teal .waves-ripple {
+    background-color:  #333344; }
+._2ph-{
+    padding: 0;
+}
+/*style scrollbar*/
+::-webkit-scrollbar-track {
+    background-color: #eaeaea;
+    border-left: 1px solid #ccc;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #9a781d;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #333344;
+}
+
+.card .card-title{
+    color: #333344;
+}
+.card-title:hover{
+    color:#88aadd;
+}
+.twitter-tweet, .fb-post{
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 0;
+}
+
+#fb-root{
+    margin: 10px;
+}
+
+svg {
+  fill: rgba(255, 255, 255, 0.57);
+}
+.main-color{
+    background-color: #333344 !important;
+}
+.secondary-color{
+   background-color:#9a781d !important;
+}
+.box {
+  width: 400px;
+  height: 175px;
+  background: #9a781d url(../img/DSC_0620.jpg) no-repeat;
+  background-position: 00px -80px; 
+  background-size: 100%;
+  float: right;
+}
+
+

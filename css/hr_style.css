@@ -1,0 +1,100 @@
+
+/*horizontal nav bar*/
+@media only screen and (min-width: 601px) {
+  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    height: 175px;
+    line-height: 175px;
+    background-color: #27323F;
+  }
+
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    background-color: #27323F;
+  }
+}
+.logo {
+    fill: #93a8c1;
+}
+.logo:hover{
+    fill: #415976;
+}
+.waves-effect.waves-blue .waves-ripple {
+     /* The alpha value allows the text and background color
+     of the button to still show through. */
+      background-color: rgba(39, 50, 63, 0.75);
+    }
+#slide-out{
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(25, 33, 42, 0.7)
+    ),
+       url(../img/liberty.jpg)  no-repeat center; 
+  background-position: 50% 0px; 
+  background-size: auto 100%;
+    font-weight: 700;
+}
+/*style scrollbar*/
+::-webkit-scrollbar-thumb {
+    background-color: #d21976;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(39, 50, 63, 1);
+}
+.card{
+    border-top: 18px solid #d21976;
+    background-color:#19212a;
+    transition:.5s;
+}
+
+.tabs .tab a{
+    color: #fff;
+}
+ .title{
+     font-size: 26px;
+ }
+.tabs, .blue-darken{
+    background-color: #27323F !important;
+}
+p{
+    margin-top: 0;
+}
+.blue-darkest{
+    background-color: #19212a !important;
+}
+.tabs .tab a:hover{
+    color:#f8ec90;
+    background-color: #19212a;
+ }
+
+.tabs .indicator{
+    background-color:#d21976;
+    height:4px;
+    left: -1px;
+ }
+.pink{
+    color: #fff;
+    background-color: #d21976 !important;
+    border-top: 6px solid #27323F;
+}
+.pink h4{
+    font-weight: 100;
+}
+
+.collection a.collection-item, .collapsible-header {
+    color: #fff;
+    background-color: #19212a;
+}
+
+.collection a.collection-item:not(.active):hover{
+    color: #fff;
+    background-color: #27323F !important;
+}
+
+.box {
+  width: 400px;
+  height: 175px;
+  background: #9a781d url(/img/DSC_0718.jpg) no-repeat;
+  background-position: 80px -70px; 
+  background-size: 100%;
+  float: right;
+}
